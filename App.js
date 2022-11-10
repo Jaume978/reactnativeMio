@@ -74,11 +74,12 @@ const App: () => Node = () => {
         style={backgroundStyle}>
         <Header />
 
-        <TextInput
+        <TextInput    
           label="Email"
           placeholder="Dime tu correo: "
         />
-
+  {//force un commit
+  }
         <Button icon="camera" mode="contained" onPress={() => alert('Pressed')}>
           Culers
         </Button>
